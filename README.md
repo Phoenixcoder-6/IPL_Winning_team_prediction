@@ -6,8 +6,8 @@ This project aims to predict the probability of winning for each team in an IPL 
 
 # Table of Contents
 - [Project Overview](#ProjectOverview)
-- Dataset
-- Model Training and Preprocessing
+- [Dataset](#Dataset)
+- [Model Training and Preprocessing](#Model_Training_And_Preprocessing)
 - Usage
 - Requirements
 - Installation
@@ -31,11 +31,36 @@ The dataset used in this project includes columns such as:
 - Additional columns and data preprocessing steps ensure that the model receives appropriate features for accurate predictions.
 
 
-## Model Training and Preprocessing:
+## Model_Training_And_Preprocessing:
 
-Usage
-Requirements
-Installation
+The project uses a logistic regression model in a Pipeline that includes:
+
+- Data Preprocessing: One-hot encoding for categorical features like batting_team, bowling_team, and city.
+- Model: Logistic Regression, trained on the preprocessed data.
+  
+The pipeline allows for easy transformation and prediction in one go, streamlining the workflow.
+
+## Requirements:
+
+To run this project, you’ll need the following Python libraries:
+- scikit-learn
+- pandas
+- numpy
+
+
+## Installation:
+
+- Clone this repository:
+
+      git clone https://github.com/your-username/ipl-winning-team-prediction.git
+      cd ipl-winning-team-prediction
+    
+- Install the dependencies:
+
+      pip install -r requirements.txt
+    
+Run the model file directly in your preferred environment (e.g., Jupyter Notebook, Google Colab).
+
 Future Work
 License
 
