@@ -13,14 +13,14 @@ The goal of this project is to predict the probability that a team will win a gi
 ## Dataset:
 The dataset used in this project includes columns such as:
 
-batting_team: The team currently batting.
-bowling_team: The team currently bowling.
-city: The city where the match is taking place.
-target: The total runs target set for the batting team.
-score: The current score of the batting team.
-overs: The number of overs completed by the batting team.
-wickets: The number of wickets lost by the batting team.
-Additional columns and data preprocessing steps ensure that the model receives appropriate features for accurate predictions.
+- batting_team: The team currently batting.
+- bowling_team: The team currently bowling.
+- city: The city where the match is taking place.
+- target: The total runs target set for the batting team.
+- score: The current score of the batting team.
+- overs: The number of overs completed by the batting team.
+- wickets: The number of wickets lost by the batting team.
+- Additional columns and data preprocessing steps ensure that the model receives appropriate features for accurate predictions.
 
 
 Model Training and Preprocessing
