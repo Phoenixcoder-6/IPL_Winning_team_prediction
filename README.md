@@ -5,7 +5,7 @@ This project aims to predict the probability of winning for each team in an IPL 
 
 
 # Table of Contents
-- [Project Overview](#ProjectOverview)
+- [Project Overview](#Project Overview)
 - Dataset
 - Model Training and Preprocessing
 - Usage
