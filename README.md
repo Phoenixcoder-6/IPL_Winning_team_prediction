@@ -8,10 +8,9 @@ This project aims to predict the probability of winning for each team in an IPL 
 - [Project Overview](#ProjectOverview)
 - [Dataset](#Dataset)
 - [Model Training and Preprocessing](#Model_Training_And_Preprocessing)
-- Usage
-- Requirements
-- Installation
-- Future Work
+- [Requirements](#Requirements)
+- [Installation](#Installation)
+- [Future Work](#FutureWork)
 
 ## ProjectOverview: 
 
@@ -61,9 +60,10 @@ To run this project, you’ll need the following Python libraries:
     
 Run the model file directly in your preferred environment (e.g., Jupyter Notebook, Google Colab).
 
-Future Work
-License
+## FutureWork:
+
+- Expand Model: Experiment with other machine learning algorithms.
+- Feature Engineering: Add more features, such as player-specific data or venue stats.
+- Web Deployment: Implement a web-based version using a framework like Streamlit.
 
 
-
-The goal of this project is to predict the probability that a team will win a given IPL match based on current in-game factors. This model could be useful for fans, analysts, or applications looking to provide live predictions during games.
