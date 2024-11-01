@@ -5,6 +5,14 @@ This project aims to predict the probability of winning for each team in an IPL 
 
 
 # Table of Contents
+- Project Overview
+- Dataset
+- Model Training and Preprocessing
+- Usage
+- Requirements
+- Installation
+- Future Work
+
 ## Project Overview: 
 
 The goal of this project is to predict the probability that a team will win a given IPL match based on current in-game factors. This model could be useful for fans, analysts, or applications looking to provide live predictions during games.
@@ -23,7 +31,8 @@ The dataset used in this project includes columns such as:
 - Additional columns and data preprocessing steps ensure that the model receives appropriate features for accurate predictions.
 
 
-Model Training and Preprocessing
+## Model Training and Preprocessing:
+
 Usage
 Requirements
 Installation
