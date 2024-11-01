@@ -10,7 +10,19 @@ Table of Contents
 The goal of this project is to predict the probability that a team will win a given IPL match based on current in-game factors. This model could be useful for fans, analysts, or applications looking to provide live predictions during games.
 
 
-##Dataset
+##Dataset:
+The dataset used in this project includes columns such as:
+
+batting_team: The team currently batting.
+bowling_team: The team currently bowling.
+city: The city where the match is taking place.
+target: The total runs target set for the batting team.
+score: The current score of the batting team.
+overs: The number of overs completed by the batting team.
+wickets: The number of wickets lost by the batting team.
+Additional columns and data preprocessing steps ensure that the model receives appropriate features for accurate predictions.
+
+
 Model Training and Preprocessing
 Usage
 Requirements
